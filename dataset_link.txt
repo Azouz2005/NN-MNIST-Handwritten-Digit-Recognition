@@ -1,0 +1,27 @@
+=========================================
+  MNIST Dataset — Download Links
+=========================================
+
+Official Source:
+  http://yann.lecun.com/exdb/mnist/
+
+PyTorch / Torchvision (used in this project):
+  torchvision.datasets.MNIST automatically downloads MNIST
+  when you set download=True in the code.
+
+  Example:
+    torchvision.datasets.MNIST(root='./data', train=True, download=True)
+
+  This downloads ~11 MB into a ./data/ folder.
+
+Kaggle Mirror (convenient for manual download):
+  https://www.kaggle.com/datasets/hojjatk/mnist-dataset
+
+=========================================
+  Dataset Info
+=========================================
+  - 60,000 training images
+  - 10,000 test images
+  - 28x28 grayscale images
+  - 10 classes (digits 0–9)
+=========================================
